@@ -3,11 +3,12 @@
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
 
-int first_number = 0;
-int second_number = 0;
+Console.Write("Enter a 1 number: ");
+int first_number    = int.Parse(Console.ReadLine());
+Console.Write("Enter a 1 number: ");
+int second_number   = int.Parse(Console.ReadLine());
 
-enter_number(ref first_number);
-enter_number(ref second_number);
+
 
 if (first_number > second_number) 
 {
@@ -18,12 +19,4 @@ else
 {
     Console.WriteLine($" max = {second_number}");
     Console.WriteLine($" min = {first_number}");
-}
-
-
-static void enter_number (ref int num)
-{
-    Console.Write("Enter a number > ");
-    string inputStr = Console.ReadLine();
-    num = int.Parse(inputStr);
 }
