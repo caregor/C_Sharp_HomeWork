@@ -3,10 +3,11 @@
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
 
-Console.Write("Enter a 1 number: ");
-int first_number    = int.Parse(Console.ReadLine());
-Console.Write("Enter a 1 number: ");
-int second_number   = int.Parse(Console.ReadLine());
+Console.Write("Enter a 1 number > ");
+int first_number = int.Parse(Console.ReadLine());
+
+Console.Write("Enter a 2 number > ");
+int second_number = int.Parse(Console.ReadLine());
 
 
 
